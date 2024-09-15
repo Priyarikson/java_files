@@ -1,0 +1,24 @@
+package javaPackage;
+
+public class ReversePyramid {
+
+	public static void main(String[] args) {
+		int k=1;
+		for (int i=0;i<4;i++) {
+			
+			//System.out.println("outer");
+			
+			for(int j=0;j<=i;j++) {
+				System.out.print(k);
+				System.out.print("\t");
+				k++;
+				
+			}
+			System.out.println(" ");
+			//System.out.println("outer");
+		}
+	}
+
+	}
+
+
